@@ -26,5 +26,24 @@ public class BasiceStack {
 
         //stack element is
         System.out.println("after adding element is:-"+stk);
+
+        //Remove element to stack
+        System.out.println(stk.pop()); //Remove 22
+        System.out.println(stk.pop()); //Remove 90
+
+        //stack Availble element is
+        System.out.println("Element is:-"+stk); //
+
+        //peek:- Array is select top element of stack
+        System.out.println(stk.peek()); //87
+        System.out.println(stk);
+
+        //print first element using while loops
+        while (stk.size()>1){
+            stk.pop();
+        }
+
+        System.out.println("first element:-"+stk);
+
     }
 }
